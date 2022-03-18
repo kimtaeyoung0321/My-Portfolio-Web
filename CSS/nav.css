@@ -1,7 +1,7 @@
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
+  background: linear-gradient(to right, #833ab4, #fc8476, #ea595b);
   align-items: center;
   color: var(--color-white);
   padding: 16px;
@@ -35,7 +35,7 @@
 }
 
 .navbar__menu__item:hover {
-  background-color: rgba(231, 71, 71, 0.5);
+  background-color: rgba(239, 228, 240, 0.2);
 }
 
 .nav2bar__logo i:hover {

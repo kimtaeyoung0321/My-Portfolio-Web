@@ -1,0 +1,56 @@
+.about__majors {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0px;
+}
+
+.major__icon {
+  width: 180px;
+  height: 180px;
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  line-height: 180px; /* 아이콘을 중앙배치하기 위한 프로퍼티(높이만큼 value를 줫다.) */
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.fa-html5 {
+  color: #ee7524;
+}
+.fa-css3-alt {
+  color: #008ad1;
+}
+.fa-js {
+  color: #efd81d;
+}
+.fa-react {
+  color: #5ed3f3;
+}
+.major__title,
+.major__description {
+  color: var(--color-dark-grey);
+}
+.major__description {
+  font-size: var(--font-small);
+}
+.about__jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.job {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.job__logo {
+  width: 40px;
+  height: 40px;
+}
+.job__description {
+  text-align: start;
+  margin-left: 5px;
+}
+.job__name,
+.job__period {
+  font-size: 12px;
+}
