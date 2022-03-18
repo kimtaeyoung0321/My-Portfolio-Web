@@ -3,6 +3,7 @@
 @import url("CSS/home.css");
 @import url("CSS/nav.css");
 @import url("CSS/about.css");
+@import url("CSS/skills.css");
 * {
   box-sizing: border-box;
 }
@@ -16,8 +17,10 @@ body {
 .section {
   padding: 50px;
   text-align: center;
-  max-width: 1200px;
   margin: auto;
+}
+.section_container {
+  max-width: 1200px;
 }
 
 a {
@@ -47,7 +50,6 @@ h2 {
 h3 {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
   margin: 8px 0;
 }
 
