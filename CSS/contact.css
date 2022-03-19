@@ -1,0 +1,19 @@
+.contact__title,
+.contact__email,
+#contact p {
+  color: var(--color-white);
+}
+.contact__email {
+  margin-bottom: 15px;
+}
+#contact p {
+  margin-top: 10px;
+}
+#contact i {
+  font-size: 36px;
+  margin: 0px 15px;
+}
+#contact i:hover {
+  transform: scale(1.3);
+  transition: all 1s var(--transition-durate);
+}
