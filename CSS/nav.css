@@ -1,13 +1,16 @@
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(to right, #833ab4, #fc8476, #ea595b);
+  background: transparent;
   align-items: center;
   color: var(--color-white);
   padding: 16px;
 }
 .nav2bar__logo {
-  font-size: var(--font-large);
+  font-size: 43px;
+  white-space: nowrap;
 }
 .nav2bar__logo i {
   margin: 0 8px;
@@ -39,7 +42,7 @@
 }
 
 .nav2bar__logo i:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
   transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -47,7 +50,7 @@
 .fa-bars {
   position: absolute;
   right: 45px;
-  top: 27px;
+  top: 25px;
   font-size: 46px;
   cursor: pointer;
   display: none;

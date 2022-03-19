@@ -66,6 +66,7 @@ p {
 #Home {
   background: url("imgs/home-background.png") center/cover no-repeat;
   padding: 40px;
+  padding-top: 120px;
   text-align: center;
 }
 #contact {
@@ -96,3 +97,4 @@ p {
     margin-bottom: 7px;
   }
 }
+/*  background: linear-gradient(to right, #833ab4, #fc8476, #ea595b); */
