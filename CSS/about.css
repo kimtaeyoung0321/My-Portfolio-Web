@@ -14,23 +14,17 @@
 }
 .fa-html5 {
   color: #ee7524;
-  font-size: 35px;
 }
 .fa-css3-alt {
   color: #008ad1;
-  font-size: 35px;
 }
 .fa-js {
   color: #efd81d;
-  font-size: 35px;
 }
 .fa-react {
   color: #5ed3f3;
-  font-size: 35px;
 }
-.fa-node {
-  font-size: 28px;
-}
+
 .major__title,
 .major__description {
   color: var(--color-dark-grey);

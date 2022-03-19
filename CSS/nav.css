@@ -42,3 +42,32 @@
   transform: scale(1.5);
   transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
+/* toggle button */
+.fa-bars {
+  position: absolute;
+  right: 45px;
+  top: 27px;
+  font-size: 46px;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .fa-bars {
+    display: block;
+  }
+  #navbar {
+    flex-direction: column;
+  }
+  .navbar__menu ul {
+    flex-direction: column;
+  }
+  .nav2bar__logo {
+    width: 100%;
+  }
+  .navbar__menu {
+    text-align: center;
+    display: none;
+  }
+}
