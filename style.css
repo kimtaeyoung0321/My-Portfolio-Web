@@ -71,3 +71,28 @@ p {
 #contact {
   background: url("imgs/bg2.png") center/cover no-repeat;
 }
+
+@media screen and (max-width: 768px) {
+  .fa-bars {
+    display: block;
+  }
+  #navbar {
+    flex-direction: column;
+  }
+  .navbar__menu ul {
+    flex-direction: column;
+  }
+  .nav2bar__logo {
+    width: 100%;
+  }
+  .navbar__menu {
+    text-align: center;
+    display: none;
+  }
+  .skillset {
+    flex-direction: column;
+  }
+  .active {
+    margin-bottom: 7px;
+  }
+}
