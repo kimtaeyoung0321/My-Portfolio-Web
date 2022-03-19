@@ -48,10 +48,20 @@
 
 /* toggle button */
 .fa-bars {
-  position: absolute;
+  /* position: absolute;
   right: 45px;
   top: 25px;
   font-size: 46px;
   cursor: pointer;
+  display: none; */
+}
+.toggle-button {
+  position: absolute;
+
+  /* top: 46px; */
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
   display: none;
+  color: var(--color-white);
 }
