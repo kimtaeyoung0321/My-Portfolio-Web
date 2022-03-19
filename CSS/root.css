@@ -24,4 +24,6 @@
   --weight-regular: 400;
   /* Size */
   --size-border-radius: 15px;
+  /* ani */
+  --transition-durate: cubic-bezier(0.16, 1, 0.3, 1);
 }
